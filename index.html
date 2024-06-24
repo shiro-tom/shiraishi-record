@@ -5,36 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shiraishi's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Shiraishi's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Shiraishi's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about-site">About this site</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">My skill set</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>iOS and Web Developer with experience in HR and Recruitment.</p>
+    <section id="hero" class="section">
+        <div class="hero-content">
+            <h1>HodaLab!</h1>
+            <p>HODA Engineering Laboratory</p>
+            <img src="images/sample.png" alt="Main Icon" class="main-icon">
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/username/project1">Project 1</a></li>
-            <li><a href="https://github.com/username/project2">Project 2</a></li>
-            <li><a href="https://github.com/username/project3">Project 3</a></li>
-        </ul>
+    <section id="about-site" class="section">
+        <div class="container">
+            <h2>About this site</h2>
+            <img src="images/sample.png" alt="About this site icon" class="section-icon">
+            <p>This is a portfolio site to showcase my work and skills as an iOS and Web Developer.</p>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: shiraishi@example.com</p>
+    <section id="about-me" class="section">
+        <div class="container">
+            <h2>About me</h2>
+            <img src="images/sample.png" alt="Profile picture" class="profile-pic">
+            <p>Introduction about yourself, your interests, and your professional background.</p>
+        </div>
+    </section>
+    <section id="works" class="section">
+        <div class="container">
+            <h2>Works</h2>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/sample.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p><a href="https://github.com/shiro-tom/project1">View on GitHub</a></p>
+                </div>
+                <div class="project">
+                    <img src="images/sample.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p><a href="https://github.com/shiro-tom/project2">View on GitHub</a></p>
+                </div>
+                <div class="project">
+                    <img src="images/sample.png" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p><a href="https://github.com/shiro-tom/project3">View on GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My skill set</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <img src="images/sample.png" alt="Skill 1">
+                    <h3>Skill 1</h3>
+                </div>
+                <div class="skill">
+                    <img src="images/sample.png" alt="Skill 2">
+                    <h3>Skill 2</h3>
+                </div>
+                <div class="skill">
+                    <img src="images/sample.png" alt="Skill 3">
+                    <h3>Skill 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="profile" class="section">
+        <div class="container">
+            <h2>Profile</h2>
+            <div class="timeline">
+                <div class="timeline-event">
+                    <img src="images/sample.png" alt="Event 1">
+                    <p>Event 1 description</p>
+                </div>
+                <div class="timeline-event">
+                    <img src="images/sample.png" alt="Event 2">
+                    <p>Event 2 description</p>
+                </div>
+                <div class="timeline-event">
+                    <img src="images/sample.png" alt="Event 3">
+                    <p>Event 3 description</p>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 Shiraishi. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Shiraishi. All rights reserved.</p>
+        </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.section {
+    padding: 5rem 0 3rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.section .section-icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0.5rem;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.skill img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.skill h3 {
+    margin-top: 0.5rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-event {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.timeline-event img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+#hero {
+    background-color: #1679AB;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+}
