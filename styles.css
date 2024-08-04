@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background: url(images/background.png)center no-repeat fixed;
+    background-size: cover;
+    color: #333;
 }
 
 header {
@@ -14,6 +22,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    font-family: 'Abril Fatface', cursive;
 }
 
 nav ul {
@@ -40,28 +49,53 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: #5AB9A8;
-    color: #fff;
+    background: url(images/catlogo.png)no-repeat center center;
+    background-size: contain;
+    color: #f4f4f4;
     text-align: center;
     padding: 100px 0;
     position: relative;
+    height: 170px;
+
 }
 
 .hero h1 {
-    font-size: 3em;
-    margin: 0;
+    font-size: 2.5em;
+    margin-top: 3rem;
+    font-family: 'Dancing Script', cursive;
+    
 }
 
 .hero p {
     font-size: 1.5em;
     margin: 10px 0;
+    font-family: 'Dancing Script', cursive;
 }
 
-.hero img {
-    width: 100px;
-    height: auto;
-    margin-top: 20px;
+section.about-me {
+    background-color: #ffffff
 }
+
+#about-me img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+#about-me {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#skills {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#contact {
+    background: rgba(255, 255, 255, 0.8);
+}
+
 
 section {
     padding: 80px 50px;
@@ -78,7 +112,9 @@ section.visible {
 
 section h1 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Abril Fatface', cursive;
+
 }
 
 section p {
@@ -86,13 +122,44 @@ section p {
     line-height: 1.5;
     max-width: 800px;
     margin: 0 auto;
+    font-family: 'Hiragino Maru Gothic Pro', sans-serif;
 }
 
 section img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
     max-width: 300px;
-    margin: 20px 0;
+    margin: 0px 0;
 }
+
+
+
+
+.works-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.work-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.work-item {
+    flex: 1 1 20%;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.work-item h2 {
+    margin-top: 10px;
+}
+
+
 
 .skills-gallery {
     display: flex;
@@ -118,66 +185,80 @@ section img {
     margin-top: 10px;
 }
 
+
 .timeline {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
+    padding-left: 50px;
 }
 
 .timeline::before {
     content: '';
     position: absolute;
-    left: 50%;
-    width: 2px;
+    left: 50px;
+    width: 4px;
     height: 100%;
     background: #333;
-    transform: translateX(-50%);
+}
+
+.timeline::after {
+    content: '▼';
+    position: absolute;
+    left: 40px;
+    bottom: -10px;
+    font-size: 24px;
+    color: #333;
 }
 
 .timeline-item {
+    display: flex;
+    align-items: center;
     text-align: left;
     width: 100%;
     max-width: 600px;
-    position: relative;
     margin: 20px 0;
+    position: relative;
 }
 
 .timeline-item h2 {
     margin: 0;
     font-size: 1.5em;
-    position: absolute;
-    left: calc(50% - 310px);
-    background: #fff;
     padding: 5px 10px;
-    transform: translateY(-50%);
+    margin-left: 20px;
+    position: absolute;
+    left: -100px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.timeline-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #333;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
 }
 
 .timeline-item p {
     padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #333;
     border-radius: 5px;
-    margin-left: 50%;
-    width: calc(50% - 30px);
+    flex: 1;
+    font-size: 0.8rem;
+    width: 80%;
 }
 
-.timeline-item:nth-child(even) h2 {
-    left: calc(50% + 210px);
-}
 
-.timeline-item:nth-child(even) p {
-    margin-left: 0;
-    margin-right: 50%;
-    text-align: right;
-}
 
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -227,38 +308,65 @@ form button:hover {
     background: #499d91;
 }
 
+
+/* 画面が小さい時用のCSS */
 @media (max-width: 768px) {
-    nav ul {
+
+    section h1 {
+        font-size: 2.0em;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+    
+    }
+    
+    section p {
+        font-size: 1.0em;
+        line-height: 1.5;
+        max-width: 800px;
+        margin: 0 auto;
+        font-family: 'Hiragino Maru Gothic Pro', sans-serif;
+    }
+
+
+
+
+    .timeline {
+        padding-left: 30px;
+    }
+ 
+
+    .timeline-item {
         flex-direction: column;
-    }
-
-    .hero {
-        padding: 70px 20px;
-    }
-
-    .work-item {
-        flex: 1 1 100%;
+        align-items: flex-start;
     }
 
     .timeline-item h2 {
-        left: 10px;
+        margin-bottom: 10px;
+        position: absolute;
+        left: -80px;
+    }
+
+    .timeline-item img {
+        margin-right: 0;
+        margin-left: 40px;
+        margin-bottom: 10px;
     }
 
     .timeline-item p {
-        width: calc(100% - 30px);
-        margin-left: 10px;
+        width: 80%;
+        position:relative;
+        margin-left: 40px;
+        font-size: 0.8rem;
     }
 
-    .timeline-item:nth-child(even) h2 {
-        left: 10px;
+    .contact p {
+        font-size: 0.8rem;
     }
 
-    .timeline-item:nth-child(even) p {
-        margin-left: 10px;
-        margin-right: 0;
-        text-align: left;
-    }
+    
 }
+
+
 
 .modal {
     display: none;
@@ -282,6 +390,11 @@ form button:hover {
     width: 80%;
     max-width: 600px;
     position: relative;
+}
+
+.modal-content img {
+    width: 120px;
+    
 }
 
 .close {

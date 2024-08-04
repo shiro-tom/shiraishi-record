@@ -19,55 +19,76 @@
         </nav>
     </header>
     <div class="hero">
-        <h1>Shiraishi</h1>
+        <h1>shiraishi</h1>
         <p>portfolio</p>
-        <img src="images/sample.png" alt="Hero Image">
     </div>
     <main>
         <section id="about">
             <h1>About this site</h1>
-            <p>このサイトは、エンジニアリングラボのプロジェクトを紹介しています。</p>
+            <p>こちらはポートフォリオサイトです。</p>
+            <p>私のこれまでの人生やスキルをご紹介します。</p>
+            <p>このサイトをきっかけに素敵な出会いがあることを願っています。</p>
         </section>
         <section id="about-me">
             <h1>About me</h1>
-            <img src="images/sample.png" alt="About Me Image">
-            <p>自己紹介文がここに入ります。エンジニアとしての経験やスキルについて説明します。</p>
+            <img src="images/logo01.png" alt="About Me Image">
+            <p>はじめまして、白石です！<br>温泉に浸かっている瞬間に最も幸せを感じます。♨️<br>現在はプログラマーを目指して日々奮闘しております。<br>どうぞよろしくお願いします！</p>
         </section>
+
+        
+
         <section id="works">
             <h1>Works</h1>
-            <div class="work-items">
-                <div class="work-item">
-                    <img src="images/sample.png" alt="Work Image 1">
-                    <p>作品1の説明</p>
+            <div class="works-gallery">
+                <div class="work-item" onclick="openModal('work1')">
+                    <img src="images/Random01.png" alt="Work Image 1">
+                    <h2>IOSアプリ</h2>
                 </div>
-                <div class="work-item">
-                    <img src="images/sample.png" alt="Work Image 2">
-                    <p>作品2の説明</p>
+                <div class="work-item" onclick="openModal('work2')">
+                    <img src="images/karaokem.png" alt="Work Image 2">
+                    <h2>カラオケ店HP</h2>
                 </div>
-                <div class="work-item">
-                    <img src="images/sample.png" alt="Work Image 3">
-                    <p>作品3の説明</p>
-                </div>
+                <div class="work-item" onclick="openModal('work3')">
+                    <img src="images/port01.png" alt="Work Image 3">
+                    <h2>ポートフォリオ</h2>
             </div>
         </section>
+
+
         <section id="skills">
             <h1>My skill set</h1>
             <div class="skills-gallery">
                 <div class="skill-item" onclick="openModal('skill1')">
-                    <img src="images/sample.png" alt="Skill 1">
-                    <h2>Skill 1</h2>
+                    <img src="images/23.png" alt="Skill 1">
+                    <h2>資格</h2>
                 </div>
                 <div class="skill-item" onclick="openModal('skill2')">
-                    <img src="images/sample.png" alt="Skill 2">
-                    <h2>Skill 2</h2>
+                    <img src="images/17.png" alt="Skill 2">
+                    <h2>Excel</h2>
                 </div>
                 <div class="skill-item" onclick="openModal('skill3')">
-                    <img src="images/sample.png" alt="Skill 3">
-                    <h2>Skill 3</h2>
+                    <img src="images/18.png" alt="Skill 3">
+                    <h2>PowerPoint</h2>
                 </div>
                 <div class="skill-item" onclick="openModal('skill4')">
-                    <img src="images/sample.png" alt="Skill 4">
-                    <h2>Skill 4</h2>
+                    <img src="images/19.png" alt="Skill 4">
+                    <h2>Word</h2>
+                </div>
+                <div class="skill-item" onclick="openModal('skill5')">
+                    <img src="images/20.png" alt="Skill 4">
+                    <h2>HTML</h2>
+                </div>
+                <div class="skill-item" onclick="openModal('skill6')">
+                    <img src="images/21.png" alt="Skill 4">
+                    <h2>CSS</h2>
+                </div>
+                <div class="skill-item" onclick="openModal('skill7')">
+                    <img src="images/22.png" alt="Skill 4">
+                    <h2>Swift</h2>
+                </div>
+                <div class="skill-item" onclick="openModal('skill8')">
+                    <img src="images/24.png" alt="Skill 4">
+                    <h2>その他</h2>
                 </div>
             </div>
         </section>
@@ -75,28 +96,47 @@
             <h1>Profile</h1>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h2>1985</h2>
-                    <p>プロフィールの内容1</p>
+                    <h2>1999</h2>
+                    <img src="images/9.png" alt="Skill 4">
+                    <p>神奈川県横浜市に誕生。</p>
                 </div>
                 <div class="timeline-item">
-                    <h2>2001</h2>
-                    <p>プロフィールの内容2</p>
+                    <h2>2005</h2>
+                    <img src="images/10.png" alt="Skill 4">
+                    <p>サッカーを始める。右バックか右ハーフを務める。</p>
                 </div>
                 <div class="timeline-item">
                     <h2>2010</h2>
-                    <p>プロフィールの内容3</p>
+                    <img src="images/11.png" alt="Skill 4">
+                    <p>ひたすら野山を駆け回る。<br>趣味は木登り、釣り、秘密基地作り、スポーツ全般、生き物飼育。</p>
                 </div>
                 <div class="timeline-item">
                     <h2>2013</h2>
-                    <p>プロフィールの内容4</p>
+                    <img src="images/12.png" alt="Skill 4">
+                    <p>中学1年、父親蒸発。中学2年母親入院。中学3年母親他界。</p>
                 </div>
                 <div class="timeline-item">
                     <h2>2015</h2>
-                    <p>プロフィールの内容5</p>
+                    <img src="images/16.png" alt="Skill 4">
+                    <p>食費を稼ぐためにアルバイト生活スタート<br>シェーキーズというピザ屋でひたすら皿洗いを1年、その後パスタを1年。</p>
                 </div>
                 <div class="timeline-item">
-                    <h2>2016</h2>
-                    <p>プロフィールの内容6</p>
+                    <h2>2019</h2>
+                    <img src="images/13.png" alt="Skill 4">
+                    <p>東洋大学理工学部機械工学科に入学。<br>埼玉県の川越に引っ越す。<br>青春を謳歌。アルバイト三昧（塾講師、パン屋、居酒屋、工場、温泉、カラオケ）
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <h2>2023</h2>
+                    <img src="images/14.png" alt="Skill 4">
+                    <p>大学中退。休学をしながら学費と生活費を稼ぎ、学業との両立に限界を感じ就職先を見つけたため中退を決意
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <h2>2024</h2>
+                    <img src="images/15.png" alt="Skill 4">
+                    <p>株式会社あつまるでエンジニアとして採用される。<br>福岡県の博多に引っ越す</p>
+                    <p>退職後リラクゼーション施設でマッサージの業務委託をしながら転職活動</p>
                 </div>
             </div>
         </section>
@@ -115,30 +155,85 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; Shiraiashi</p>
     </footer>
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <div id="skill1" class="modal-detail">
-                <h2>Skill 1</h2>
-                <img src="images/sample.png" alt="Skill 1 Image">
-                <p>スキル1の詳細情報がここに表示されます。</p>
+                <h2>所有資格</h2>
+                <img src="images/23.png" alt="Skill 1 Image">
+                <p>①ITパスポート<br>②３級ファイナンシャルプランニング技能士<br>③第一種普通免許</p>
+                <p>現在は基本情報技術者試験の勉強をしています。</p>
             </div>
             <div id="skill2" class="modal-detail">
-                <h2>Skill 2</h2>
-                <img src="images/sample.png" alt="Skill 2 Image">
-                <p>スキル2の詳細情報がここに表示されます。</p>
+                <h2>Excel</h2>
+                <img src="images/17.png" alt="Skill 2 Image">
+                <p>主にGoogleスプレットシートを使って目標対進捗を管理しています。</p>
             </div>
             <div id="skill3" class="modal-detail">
-                <h2>Skill 3</h2>
-                <img src="images/sample.png" alt="Skill 3 Image">
-                <p>スキル3の詳細情報がここに表示されます。</p>
+                <h2>PowerPoint</h2>
+                <img src="images/18.png" alt="Skill 3 Image">
+                <p>大学生時代に、ゼミの教授から授業資料作成のアルバイトをいただき、PowerPointを使って資料作成をしました。</p>
             </div>
             <div id="skill4" class="modal-detail">
-                <h2>Skill 4</h2>
-                <img src="images/sample.png" alt="Skill 4 Image">
-                <p>スキル4の詳細情報がここに表示されます。</p>
+                <h2>Word</h2>
+                <img src="images/19.png" alt="Skill 4 Image">
+                <p>学生時代のレポート作成は全てWordで行っていました。</p>
+            </div>
+            <div id="skill5" class="modal-detail">
+                <h2>HTML</h2>
+                <img src="images/20.png" alt="Skill 4 Image">
+                <p>このサイトのような外観を作成可能です。</p>
+            </div>
+            <div id="skill6" class="modal-detail">
+                <h2>CSS</h2>
+                <img src="images/21.png" alt="Skill 4 Image">
+                <p>このサイトのような外観を作成可能です。</p>
+            </div>
+            <div id="skill7" class="modal-detail">
+                <h2>Swift</h2>
+                <img src="images/22.png" alt="Skill 4 Image">
+                <p>WorkのIOSアプリにあるように、簡単なアプリを作成可能です。</p>
+            </div>
+            <div id="skill8" class="modal-detail">
+                <h2>その他</h2>
+                <img src="images/24.png" alt="Skill 4 Image">
+                <p>powerdirectorでの動画作成<br>ClipStudioPeintでのイラスト作成<br>などなど、、、</p>
+            </div>
+
+
+
+
+
+
+
+            <div id="work1" class="modal-detail">
+                <h2>RandomToDoApp</h2>
+                <img src="images/Random01.png" alt="Skill 4 Image">
+                <img src="images/Random02.png" alt="Skill 4 Image">
+                <img src="images/Random03.png" alt="Skill 4 Image">
+                <p>選択に迷った時に、2択または3択からランダムで結果を決めてくれる、意思決定補助ツールです。<br>学生時代「人生の岐路」というこのアプリと同じように、ただ選択肢からランダムに一つを選択してくれるだけのアプリをやたら使っている友人がいました。それを思い出して作ることにしました。<br>名付けて「運命の分岐点」です。笑</p>
+                <p>使用技術：Swift・Xcode・ChatGPT</p>
+                <p>詳しくは→<a href="https://github.com/shiro-tom/RandomToDoApp-ios" target="_blank">GitHubへ</a>
+                </p>
+            </div>
+            <div id="work2" class="modal-detail">
+                <h2>カラオケ店HP</h2>
+                <img src="images/karaoke01.png" alt="Skill 4 Image">
+                <img src="images/karaoke02.png" alt="Skill 4 Image">
+                <img src="images/karaoke03.png" alt="Skill 4 Image">
+                <p>学生時代にアルバイトをしていたカラオケ店のHPを作成しました。<br>理系大学というだけでHPを作れると勘違いされたことがっきかけで始めたHP作成。まだAIも今ほど盛んではなかったため、ひたすら参考者やネットで情報を集めWordPressを使って作成しました。</p>
+                <p>使用技術：WordPress・さくらインターネット</p>
+                <p>詳しくは→
+                    <p>詳しくは→<a href="https://karaoke-music.net/" target="_blank">実際のHPへ</a></p>
+            </div>
+            <div id="work3" class="modal-detail">
+                <h2>ポートフォリオ</h2>
+                <img src="images/port01.png" alt="Skill 4 Image">
+                <p>このサイトです。<br>ChatGPTに頼った部分も多くあります、、！<br>特にJavaScriptに関してはまだまだ勉強が必要だと感じています。</p>
+                <p>使用技術：HTML・CSS・JavaScript・Canva</p>
+                <p>詳しくは→<a href="https://github.com/shiro-tom/shiraishi.portfolio" target="_blank">GitHubへ</a></p>
             </div>
         </div>
     </div>
