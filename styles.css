@@ -331,6 +331,20 @@ form button:hover {
     nav ul li {
         margin: 0 8px;
     }
+    section h1 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface', cursive;
+    
+    }
+    
+    section p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        max-width: 800px;
+        margin: 0 auto;
+        font-family: 'Hiragino Maru Gothic Pro', sans-serif;
+    }
 
 
 
@@ -340,6 +354,8 @@ form button:hover {
         padding: 50px 0;
         height: auto;
     }
+
+    
 
     
 
