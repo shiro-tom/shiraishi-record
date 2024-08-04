@@ -312,19 +312,44 @@ form button:hover {
 /* 画面が小さい時用のCSS */
 @media (max-width: 768px) {
 
-    section h1 {
-        font-size: 2.0em;
-        margin-bottom: 10px;
-        font-family: 'Abril Fatface', cursive;
-    
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        background: url(images/background.png)cente center no-repeat;
+        background-size: cover;
+        color: #333;
     }
-    
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        padding: 50px 0;
+        height: auto;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    section h1 {
+        font-size: 1.5em;
+    }
+
     section p {
-        font-size: 1.0em;
-        line-height: 1.5;
-        max-width: 800px;
-        margin: 0 auto;
-        font-family: 'Hiragino Maru Gothic Pro', sans-serif;
+        font-size: 1em;
     }
 
 
