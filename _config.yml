@@ -1,7 +1,4 @@
 title: Shiro Record
 description: "sample submessage"
-remote_theme: "mmistakes/so-simple-theme"
-
-plugins:
-  - jekyll-remote-theme
+theme: so-simple-theme
   
