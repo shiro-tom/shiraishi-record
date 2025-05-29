@@ -1,6 +1,6 @@
 title: Shiro Record
 description: "sample submessage"
-theme: so-simple-theme
+theme: jekyll-theme-so-simple
   
 paginate: 5
 paginate_path: "/page:num"
