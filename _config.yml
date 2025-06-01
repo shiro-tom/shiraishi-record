@@ -8,7 +8,7 @@ title: Shiro Record
 description: A simple Jekyll theme for words and pictures.
 baseurl: ""
 url: "https://shiro-tom.github.io/shiraishi-record"
-theme: jekyll-theme-so-simple
+theme: so-simple-theme
 
 # Author/Owner
 author:
