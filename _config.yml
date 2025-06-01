@@ -1,6 +1,22 @@
-title: Shiro Record
-description: "sample submessage"
-theme: jekyll-theme-so-simple
+# title: Shiro Record
+# description: "sample submessage"
+# theme: jekyll-theme-so-simple
   
+# paginate: 5
+# paginate_path: "/page:num"
+title: Shiro Record
+description: A simple Jekyll theme for words and pictures.
+baseurl: ""
+url: "https://shiro-tom.github.io/shiraishi-record"
+theme: jekyll-theme-so-simple
+
+# Author/Owner
+author:
+  name: Shiraishi Tom
+  picture: /images/avatar.png
+  email: your@email.com
+
+# Build settings
+markdown: kramdown
 paginate: 5
-paginate_path: "/page:num"
+paginate_path: "/page:num/"
